@@ -1,0 +1,67 @@
+:root{
+    --primary:rgba(9, 5, 56, 0.65);
+}
+
+body{
+    background: linear-gradient(var(--primary) , var(--primary)),
+                url("../assets/pexels-maxyne-barcel-10402282\ 1.png");
+}
+
+.container nav{
+    /* border: 4px solid salmon; */
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.list-item{
+    /* border: 3px solid red; */
+    display: inline-block;
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-right: -160px;   
+    color: #EDC126;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+div .button-small{
+    margin-left: 440px;
+    margin-top: 18px;
+    padding: 9px;
+    background-color: #FF6666;
+    width: 120px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+}
+
+.hero{
+    /* border: 3px solid red; */
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.hero-heading{
+    font-size: 90px;
+    color: #E8BD0D;
+}
+
+.button-large{
+    background-color: #FF6666;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+    margin-top: 20px;
+    border: none;
+}
+
+.bottom img{
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
